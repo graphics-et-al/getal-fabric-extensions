@@ -1,20 +1,21 @@
 # Fabric Extensions
 
-This package contains a list of different plugins/extensions to use with [fabric.js](https://github.com/fabricjs/fabric.js). 🎉️
+This package contains fixes and enhancements to the @yassidev/fabric-extensions package at https://github.com/yassilah/fabric-extensions
+which contains a list of different plugins/extensions to use with [fabric.js](https://github.com/fabricjs/fabric.js) developed for [Graphics Et Al](https://graphicsetal.com) 🎉️
 
 ## Installation
 
 Simply install the package by running:
 
 ```javascript
-yarn add @yassidev/fabric-extensions
+npm install @graphicsetal/getal-fabric-extensions
 ```
 
 Then simply include it into your application.
 
 ```javascript
 import { fabric } from 'fabric'
-import { install } from '@yassidev/fabric-extensions'
+import { install } from '@graphicsetal/getal-fabric-extensions'
 
 install(fabric)
 ```
@@ -23,14 +24,14 @@ You may also simply need:
 
 ```javascript
 import 'fabric'
-import '@yassidev/fabric-extensions'
+import '@graphicsetal/getal-fabric-extensions'
 ```
 
 You may also only install the extensions you want:
 
 ```javascript
 import { fabric } from 'fabric'
-import { textVerticalAlign, canvasShortcuts, canvasDrop } from '@yassidev/fabric-extensions'
+import { textVerticalAlign, canvasShortcuts, canvasDrop } from '@graphicsetal/getal-fabric-extensions'
 
 textVerticalAlign(fabric)
 canvasShortcuts(fabric)
@@ -47,7 +48,7 @@ This extension will allow you to crop your images. Simply double click on your o
 
 ```javascript
 import { fabric } from 'fabric'
-import { imageControls } from '@yassidev/fabric-extensions'
+import { imageControls } from '@graphicsetal/getal-fabric-extensions'
 
 imageControls(fabric)
 
@@ -75,7 +76,7 @@ This extension will allow you to edit the points of your polygons/polylines/arro
 
 ```javascript
 import { fabric } from 'fabric'
-import { polylineControls } from '@yassidev/fabric-extensions'
+import { polylineControls } from '@graphicsetal/getal-fabric-extensions'
 
 polylineControls(fabric)
 
@@ -114,7 +115,7 @@ This extension will simply automatically scale the canvas background/overlay ima
 
 ```javascript
 import { fabric } from 'fabric'
-import { canvasCoverBackground } from '@yassidev/fabric-extensions'
+import { canvasCoverBackground } from '@graphicsetal/getal-fabric-extensions'
 
 canvasCoverBackground(fabric)
 
@@ -127,7 +128,7 @@ This extension will allow you to drop elements on the canvas directly ! By defau
 
 ```javascript
 import { fabric } from 'fabric'
-import { canvasDrop } from '@yassidev/fabric-extensions'
+import { canvasDrop } from '@graphicsetal/getal-fabric-extensions'
 
 canvasDrop(fabric)
 
@@ -149,7 +150,7 @@ This extension will add centering and aligning guidelines to your canvas when pl
 
 ```javascript
 import { fabric } from 'fabric'
-import { canvasGuidelines } from '@yassidev/fabric-extensions'
+import { canvasGuidelines } from '@graphicsetal/getal-fabric-extensions'
 
 canvasGuidelines(fabric)
 ```
@@ -160,7 +161,7 @@ This extension will allow you to register keyboard shortcuts to interact with yo
 
 ```javascript
 import { fabric } from 'fabric'
-import { canvasShortcutsCopy, canvasShortcutsGroup } from '@yassidev/fabric-extensions'
+import { canvasShortcutsCopy, canvasShortcutsGroup } from '@graphicsetal/getal-fabric-extensions'
 
 canvasShortcutsCopy(fabric)
 canvasShortcutsGroup(fabric)
@@ -189,7 +190,7 @@ This extension will allow you to very easily create new fabric.Image instances f
 
 ```javascript
 import { fabric } from 'fabric'
-import { imageImport } from '@yassidev/fabric-extensions'
+import { imageImport } from '@graphicsetal/getal-fabric-extensions'
 
 imageImport(fabric)
 
@@ -204,7 +205,7 @@ This extension will allow you to export animations in your JSON. The concept is 
 
 ```javascript
 import { fabric } from 'fabric'
-import { objectExportAnimations } from '@yassidev/fabric-extensions'
+import { objectExportAnimations } from '@graphicsetal/getal-fabric-extensions'
 
 objectExportAnimations(fabric)
 
@@ -247,7 +248,7 @@ This extension will allow you to export events in your JSON. The concept is simp
 
 ```javascript
 import { fabric } from 'fabric'
-import { objectExportAnimations } from '@yassidev/fabric-extensions'
+import { objectExportAnimations } from '@graphicsetal/getal-fabric-extensions'
 
 objectExportAnimations(fabric)
 
@@ -274,7 +275,7 @@ This extension will allow you to set the vertical alignment of your fabric.Text/
 
 ```javascript
 import { fabric } from 'fabric'
-import { textVerticalAlign } from '@yassidev/fabric-extensions'
+import { textVerticalAlign } from '@graphicsetal/getal-fabric-extensions'
 
 textVerticalAlign(fabric)
 
@@ -290,7 +291,7 @@ This extension will allow you to add SVG path icons into your canvases. The exte
 
 ```javascript
 import { fabric } from 'fabric'
-import { icons } from '@yassidev/fabric-extensions'
+import { icons } from '@graphicsetal/getal-fabric-extensions'
 import * as mdi from '@mdi/js'
 import { kebabCase } from 'lodash'
 

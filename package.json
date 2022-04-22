@@ -1,10 +1,10 @@
 {
-  "name": "@yassidev/fabric-extensions",
+  "name": "@graphicsetal/getal-fabric-extensions",
   "version": "1.1.13",
   "description": "Extensions to fabric.js",
   "keywords": [],
-  "main": "dist/fabric-extensions.umd.js",
-  "module": "dist/fabric-extensions.es5.js",
+  "main": "dist/getal-fabric-extensions.umd.js",
+  "module": "dist/getal-fabric-extensions.es5.js",
   "typings": "dist/types/index.d.ts",
   "files": [
     "dist"
@@ -12,8 +12,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "author": "yassipad <yasser.lahbibi@apenhet.com>",
-  "repository": "https://github.com/yassipad/fabric-extensions",
+  "author": "Adam Landow <adam.landow@gmail.com>",
+  "repository": "https://github.com/graphics-et-al/getal-fabric-extensions",
   "license": "MIT",
   "engines": {
     "node": ">=6.0.0"
